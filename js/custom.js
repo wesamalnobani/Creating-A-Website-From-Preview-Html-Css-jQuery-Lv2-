@@ -1,0 +1,2 @@
+/*global $, alert, console, window*/
+
