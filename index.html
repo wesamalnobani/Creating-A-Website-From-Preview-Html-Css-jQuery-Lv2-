@@ -3,8 +3,13 @@
     <head lang="en">
         <meta charset="UFT-8"/>
         <title>Classic</title>
+        <!--Bx Slider CSS Files-->
+        <link/>
+        <!--My CSS Files-->
         <link rel="stylesheet" href="css/normalize.css"/>
         <link rel="stylesheet" href="css/style.css"/>
+        <!--Font Awesome Icon Library-->
+        <link rel="styleseet" href="css/fontawesome.min.css"/>
     </head>
     <body>
         <!--Start Navigation Bar-->
@@ -14,11 +19,11 @@
                     <h2>Classic</h2>
                 </div>
                 <ul class="links">
-                    <li class="active">Home</li>
-                    <li>About</li>
-                    <li>Portfloio</li>
-                    <li>Testimonials</li>
-                    <li>Contact</li>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#" data-value="ser">About</a></li> <!--Delete Class="ser"-->
+                    <li><a href="#" data-value="port">Portfloio</a></li>
+                    <li><a href="#" data-value="test">Testimonials</a></li>
+                    <li><a href="#" data-value="cont">Contact</a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
@@ -27,10 +32,26 @@
         <!--Stard Header-->
         <div class="header">
             <div class="overlay">
-                
+                <ul class="bxslider">
+
+                </ul>
             </div>
         </div>
         <!--End Header-->
+        <!--Strt Our Services-->
+        <div id="ser" class="services">
+            <div class="container">
+                <h2 class="special-heading">Our Services</h2>
+                <div class="item">
+                    <i class="fa fa-laptop"></i>
+                    <div class="info">
+                        <h3>Responsive</h3>
+                        <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Our Services-->
         <script src="js/jquery-3.4.0.min.js"></script>
         <script src="js/custom.js"></script>
     </body>
