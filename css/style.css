@@ -92,12 +92,64 @@ ul {
 
 /* Strt Our Services */
 .services {
-    height: 2000px;
-    padding: 80px;
+    /*height: 2000px; was Temprory*/
+    padding: 80px 20px 40px;
 }
 
 .services h2 {
     margin: 0 0 50px;
+    font-weight: normal;
+}
+
+.services .item {
+    float: left;
+    width: 33.33333%;
+    /*background-color: #EEE; delete just for test*/ 
+    margin-bottom: 20px
+}
+
+.services .item i {
+    color: #1abc9c;
+    float: left;
+    width: 17%;
+    margin-right: 8%;
+    margin-top: 10px
+}
+
+.services .item .info {
+    float: left;
+    width: 70%;
+}
+
+.services .item .info  h3 {
+    font-weight: normal;
+    color: #585353;
+    margin-bottom: 10px
+}
+
+.services .item .info  p {
+    margin-top: 0;
+    color: #888
+}
+
+.our-team {
+    padding: 40px 20px;
+}
+
+.our-team .box {
+    float: left;
+}
+
+.our-team .box:first-child {
+    width: 35%;
+}
+
+.our-team .box:not(:first-child) {
+    width: 16.25%;
+    text-align: right;
+}
+
+.our-team h2 {
     font-weight: normal;
 }
 /* End Our Services */
@@ -119,5 +171,10 @@ ul {
     left: 0;
     width: 40px;
     border: 2px solid #333;
+}
+
+.separator {
+    border: 1px solid #EEE;
+    display: block;
 }
 /* End My Framework */
