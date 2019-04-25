@@ -62,4 +62,15 @@ $(function () {
 
     } ());
 
+    // Trigger Mixitup 
+
+    $('#container').mixItUp();
+
+    // Adjust Shuffle Links.
+
+    $('.shuffle li').click(function () {
+
+        $(this).addClass('selected').siblings().removeClass('selected');
+    });
+
 });

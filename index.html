@@ -157,29 +157,29 @@
         <div id="port" class="our-projects">
             <div class="container">
                 <h2 class="special-heading">Projects</h2>
-                <ul>
-                    <li class="selected">All</li>
-                    <li>Mobile</li>
-                    <li>Coffee</li>
-                    <li>Video</li>
+                <ul class="shuffle">
+                    <li class="selected filter" data-filter="all">All</li>
+                    <li class="filter" data-filter=".mobile">Mobile</li>
+                    <li class="filter" data-filter=".coffee">Coffee</li>
+                    <li class="filter" data-filter=".video">Video</li>
                 </ul>
-                <div class="gallery">
+                <div id="container" class="gallery">
                     <div class="row">
-                        <div>
+                        <div class="mix mobile">
                             <div class="over">View More</div>
                             <span class="heart">
                                 <i class="fa fa-heart"></i> 14
                             </span>
                             <img src="images/projects/01.jpg" alt=""/>
                         </div>
-                        <div>
+                        <div class="mix coffee">
                                 <div class="over">View More</div>
                                 <span class="heart">
                                     <i class="fa fa-heart"></i> 14
                                 </span>
                             <img src="images/projects/02.jpg" alt=""/>
                         </div>
-                        <div>
+                        <div class="mix coffee">
                                 <div class="over">View More</div>
                                 <span class="heart">
                                     <i class="fa fa-heart"></i> 14
@@ -188,21 +188,21 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div>
+                        <div class="mix mobile">
                                 <div class="over">View More</div>
                                 <span class="heart">
                                     <i class="fa fa-heart"></i> 14
                                 </span>
                             <img src="images/projects/04.jpg" alt=""/>
                         </div>
-                        <div>
+                        <div class="mix video">
                                 <div class="over">View More</div>
                                 <span class="heart">
                                     <i class="fa fa-heart"></i> 14
                                 </span>
                             <img src="images/projects/05.jpg" alt=""/>
                         </div>
-                        <div>
+                        <div class="mix video">
                                 <div class="over">View More</div>
                                 <span class="heart">
                                     <i class="fa fa-heart"></i> 14
@@ -215,6 +215,7 @@
         </div>
 <!--End projects-->
         <script src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/jquery.mixitup.js"></script>
         <script src="js/custom.js"></script>
     </body>
 </html>
